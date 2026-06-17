@@ -3,50 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Antoine Mottet - Portfolio & Candidature</title>
+    <title>Antoine Mottet - Portfolio & Candidature Stage</title>
+    <!-- Tailwind CSS -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body class="bg-slate-50 text-slate-800 font-sans antialiased">
 
-    <header class="bg-gradient-to-r text-white py-20 px-4 text-center shadow-lg style-theme" style="background-image: linear-gradient(135deg, #1e3a8a 0%, #0284c7 100%);">
+    <!-- HERO SECTION -->
+    <header class="bg-gradient-to-r text-white py-20 px-4 text-center shadow-lg" style="background-image: linear-gradient(135deg, #1e3a8a 0%, #0284c7 100%);">
         <div class="max-w-4xl mx-auto">
             <h1 class="text-4xl md:text-6xl font-extrabold mb-4 tracking-tight">Antoine Mottet</h1>
             <p class="text-xl md:text-2xl font-light text-sky-100 mb-6">Élève de 3ème & Passionné de Sport</p>
             <div class="inline-block bg-sky-500/30 border border-sky-300/50 rounded-full px-6 py-2 text-sm md:text-base font-semibold uppercase tracking-wider backdrop-blur-sm">
-                En recherche d'un stage d'observation : Vente & Réparation de Cycles
+                Stage d'observation : Vente & Réparation de Cycles
             </div>
         </div>
     </header>
 
     <main class="max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 lg:grid-cols-3 gap-8">
         
+        <!-- SIDEBAR : INFOS & CONTACT -->
         <aside class="space-y-6">
+            <!-- Carte Contact -->
             <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
                 <h3 class="text-lg font-bold text-slate-900 mb-4 pb-2 border-b border-slate-100">
-                    <i class="fa-solid font-icon text-sky-600 mr-2 fa-user"></i>Informations
+                    <i class="fa-solid text-sky-600 mr-2 fa-user"></i>Informations & Contact
                 </h3>
                 <ul class="space-y-4 text-sm text-slate-600">
                     <li class="flex items-center"><i class="fa-solid fa-calendar w-6 text-sky-500 text-base"></i> <span>14 ans (14/08/2012)</span></li>
                     <li class="flex items-center"><i class="fa-solid fa-graduation-cap w-6 text-sky-500 text-base"></i> <span>Collège de Châtillon-le-Duc</span></li>
                     <li class="flex items-center"><i class="fa-solid fa-phone w-6 text-sky-500 text-base"></i> <a href="tel:0698257288" class="hover:text-sky-600 transition">06 98 25 72 88</a></li>
-                    <li class="flex items-center"><i class="fa-solid fa-envelope w-6 text-sky-500 text-base"></i> <a href="mailto:antoine.mottet@exemple.fr" class="hover:text-sky-600 transition truncate block">antoine.mottet@exemple.fr</a></li>
-                    <li class="flex items-center"><i class="fa-solid fa-location-dot w-6 text-sky-500 text-base"></i> <span>Les Auxons (25870)</span></li>
+                    <!-- MAJ de l'adresse email -->
+                    <li class="flex items-center"><i class="fa-solid fa-envelope w-6 text-sky-500 text-base"></i> <a href="mailto:antmottet@gmail.com" class="hover:text-sky-600 transition truncate block font-semibold text-slate-900">antmottet@gmail.com</a></li>
+                    <li class="flex items-center"><i class="fa-solid fa-location-dot w-6 text-sky-500 text-base"></i> <span>14 rue Alphonse Daudet,<br><span class="ml-6">25870 Les Auxons</span></span></li>
                 </ul>
             </div>
 
+            <!-- Carte Projet d'avenir -->
             <div class="bg-gradient-to-br from-slate-900 to-slate-800 text-slate-100 p-6 rounded-2xl shadow-sm">
                 <h3 class="text-lg font-bold mb-4 pb-2 border-b border-slate-700 text-sky-400">
-                    <i class="fa-solid font-icon mr-2 fa-crosshairs"></i>Orientation Future
+                    <i class="fa-solid mr-2 fa-crosshairs"></i>Orientation Future
                 </h3>
                 <div class="space-y-3 text-sm">
                     <div>
-                        <span class="text-xs font-bold uppercase tracking-wider text-slate-400 block">Rentrée Prochaine (2de)</span>
+                        <span class="text-xs font-bold uppercase tracking-wider text-slate-400 block">Classe de Seconde</span>
                         <p class="font-medium">Lycée Jules Haag (Besançon)</p>
-                        <p class="text-xs text-sky-300">Option Sport engagée</p>
+                        <p class="text-xs text-sky-300">Option Sport engagée dès la rentrée</p>
                     </div>
                     <div class="pt-2">
-                        <span class="text-xs font-bold uppercase tracking-wider text-slate-400 block">Cycle Terminal (1ère/Term)</span>
+                        <span class="text-xs font-bold uppercase tracking-wider text-slate-400 block">Cycle Terminal</span>
                         <p class="font-medium">Spécialité EPPCS visée</p>
                         <p class="text-xs text-slate-400">Éducation Physique, Pratiques et Cultures Sportives</p>
                     </div>
@@ -54,25 +61,33 @@
             </div>
         </aside>
 
+        <!-- CONTENU PRINCIPAL -->
         <section class="lg:col-span-2 space-y-10">
             
+            <!-- LETTRE DE MOTIVATION -->
             <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
-                <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center">
-                    <i class="fa-solid font-icon text-sky-600 mr-3 fa-file-lines"></i> Lettre de Motivation
+                <h2 class="text-2xl font-bold text-slate-900 mb-2 flex items-center">
+                    <i class="fa-solid text-sky-600 mr-3 fa-file-lines"></i> Lettre de Motivation
                 </h2>
+                <!-- MAJ des périodes de stage visibles -->
+                <div class="mb-6 p-3 bg-sky-50 rounded-lg text-sm text-sky-800 border border-sky-100">
+                    <span class="font-bold">Objet :</span> Recherche d'un stage d'observation d'une semaine. 
+                    <br>Périodes planifiées : <span class="font-semibold">du 30/11/26 au 04/12/26</span> ou <span class="font-semibold">du 07/12/26 au 11/12/26</span>.
+                </div>
+
                 <div class="prose text-slate-600 leading-relaxed space-y-4 text-sm md:text-base">
                     <p class="font-semibold text-slate-800">Madame, Monsieur,</p>
                     <p>
-                        Prochainement élève en classe de 3ème au collège de Châtillon-le-Duc, je dois réaliser dans le cadre de ma scolarité un premier stage d'observation en entreprise.
+                        Prochainement élève en classe de 3ème au collège de Châtillon-le-Duc, je devez réaliser dans le cadre de ma scolarité un premier stage d'observation en entreprise d'une durée d'une semaine. Ce stage est planifié sur l'une de ces deux périodes : <strong>du 30 novembre au 4 décembre 2026</strong> ou <strong>du 7 au 11 décembre 2026</strong>.
                     </p>
                     <p>
-                        Passionné depuis de nombreuses années par le monde du sport et plus particulièrement par l'univers du cyclisme, c'est avec une très grande motivation que je sollicite votre entreprise pour m'accueillir. Mon choix s'est immédiatement porté sur votre magasin, car il réunit les deux aspects d'un métier que je souhaite découvrir de l'intérieur : <strong>la technique et la relation humaine</strong>.
+                        Passionné depuis de nombreuses années par le monde du sport et plus particulièrement par l'univers du cyclisme, c'est avec une très grande motivation que je sollicite votre entreprise pour m'accueillir. Mon choix s'est immédiatement porté sur votre magasin, car il réunit les deux aspects d'un métier que je souhaite découvrir de l'intérieur : la technique et la relation humaine.
                     </p>
                     <p>
                         D'une part, curieux et manuel, j'ai une envie profonde d'apprendre les bases de la mécanique, comprendre le fonctionnement d'un atelier professionnel et le diagnostic de pannes. D'autre part, je souhaite observer la relation clientèle, l'organisation de la surface de vente et les techniques de marketing qui permettent de valoriser les produits.
                     </p>
                     <p>
-                        Je possède une culture très solide du cyclisme professionnel (équipes, coureurs, grandes courses), mes proches me décrivant comme un véritable <em>« Wikipédia de la discipline »</em>. Je suis convaincu que cette connaissance approfondie me permettra de m'intégrer facilement et d'échanger avec vos clients avec enthousiasme et pertinence.
+                        Je possède une culture très solide du cyclisme professionnel (équipes, coureurs, grandes courses), mes proches me décrivant comme un véritable « Wikipédia » de la discipline. Je suis convaincu que cette connaissance approfondie me permettra de m'intégrer facilement et d'échanger avec vos clients avec enthousiasme et pertinence.
                     </p>
                     <p>
                         Dynamique et rigoureux, je serais fier de faire mes premiers pas professionnels à vos côtés. Je me tiens à votre entière disposition pour un entretien.
@@ -83,31 +98,35 @@
                 </div>
             </div>
 
+            <!-- PARCOURS SPORTIF & COMPÉTENCES -->
             <div class="space-y-4">
                 <h2 class="text-2xl font-bold text-slate-900 flex items-center px-2">
-                    <i class="fa-solid font-icon text-sky-600 mr-3 fa-trophy"></i> Parcours & Pédigrée Sportif
+                    <i class="fa-solid text-sky-600 mr-3 fa-trophy"></i> Parcours & Pédigrée Sportif
                 </h2>
-                <p class="text-slate-500 text-sm px-2 mb-4">Mon parcours de compétiteur a développé chez moi la rigueur, l'esprit d'équipe et le sens du contact client.</p>
+                <p class="text-slate-500 text-sm px-2 mb-4">Un engagement fort dans le sport de compétition pour développer la rigueur, l'esprit d'équipe et le contact client.</p>
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <!-- Cyclisme -->
                     <div class="bg-white p-5 rounded-xl shadow-sm border-l-4 border-amber-500 hover:shadow-md transition">
                         <div class="flex justify-between items-start mb-2">
                             <h4 class="font-bold text-slate-900 text-lg"><i class="fa-solid fa-bicycle text-amber-500 mr-2"></i>Cyclisme & Cyclo-cross</h4>
-                            <span class="text-xs font-semibold bg-amber-50 text-amber-700 px-2 py-1 rounded">Depuis 2025</span>
+                            <span class="text-xs font-semibold bg-amber-50 text-amber-700 px-2 py-1 rounded">Dès 2025</span>
                         </div>
                         <p class="text-xs text-slate-400 mb-2">Niveau : Passionné & Pratiquant (Intensif)</p>
                         <p class="text-sm text-slate-600">Rigueur à l'entraînement, suivi expert de l'actualité pro, culture technique.</p>
                     </div>
 
+                    <!-- Judo -->
                     <div class="bg-white p-5 rounded-xl shadow-sm border-l-4 border-stone-800 hover:shadow-md transition">
                         <div class="flex justify-between items-start mb-2">
                             <h4 class="font-bold text-slate-900 text-lg"><i class="fa-solid fa-user-ninja text-stone-800 mr-2"></i>Judo</h4>
                             <span class="text-xs font-semibold bg-stone-100 text-stone-800 px-2 py-1 rounded">2016 - Présent</span>
                         </div>
-                        <p class="text-xs text-slate-400 mb-2">Niveau : Ceinture Marron (3e Franche-Comté / 2e Doubs-Jura)</p>
+                        <p class="text-xs text-slate-400 mb-2">Niveau : Ceinture Marron (3º Franche-Comté / 2º Doubs-Jura)</p>
                         <p class="text-sm text-slate-600">Respect absolu d'autrui, discipline personnelle, persévérance, maîtrise de soi.</p>
                     </div>
 
+                    <!-- Tennis de table -->
                     <div class="bg-white p-5 rounded-xl shadow-sm border-l-4 border-blue-500 hover:shadow-md transition">
                         <div class="flex justify-between items-start mb-2">
                             <h4 class="font-bold text-slate-900 text-lg"><i class="fa-solid fa-table-tennis-paddle-ball text-blue-500 mr-2"></i>Tennis de Table</h4>
@@ -117,6 +136,7 @@
                         <p class="text-sm text-slate-600">Rapidité d'analyse, réflexes affûtés, sens stratégique et gestion du stress.</p>
                     </div>
 
+                    <!-- Football -->
                     <div class="bg-white p-5 rounded-xl shadow-sm border-l-4 border-emerald-600 hover:shadow-md transition">
                         <div class="flex justify-between items-start mb-2">
                             <h4 class="font-bold text-slate-900 text-lg"><i class="fa-solid fa-ranking-star text-emerald-600 mr-2"></i>Football</h4>
@@ -126,6 +146,7 @@
                         <p class="text-sm text-slate-600">Esprit d'équipe, solidarité, communication sur le terrain, écoute des consignes.</p>
                     </div>
 
+                    <!-- Trail -->
                     <div class="bg-white p-5 rounded-xl shadow-sm border-l-4 border-orange-500 hover:shadow-md transition">
                         <div class="flex justify-between items-start mb-2">
                             <h4 class="font-bold text-slate-900 text-lg"><i class="fa-solid fa-person-running text-orange-500 mr-2"></i>Trail Running</h4>
@@ -135,12 +156,13 @@
                         <p class="text-sm text-slate-600">Endurance physique/mentale, goût du dépassement, gestion de l'effort.</p>
                     </div>
 
+                    <!-- Engagement Scolaire -->
                     <div class="bg-white p-5 rounded-xl shadow-sm border-l-4 border-purple-500 hover:shadow-md transition">
                         <div class="flex justify-between items-start mb-2">
-                            <h4 class="font-bold text-slate-900 text-lg"><i class="fa-solid fa-school text-purple-500 mr-2"></i>Engagement UNSS</h4>
+                            <h4 class="font-bold text-slate-900 text-lg"><i class="fa-solid fa-school text-purple-500 mr-2"></i>Engagement Scolaire</h4>
                             <span class="text-xs font-semibold bg-purple-50 text-purple-700 px-2 py-1 rounded">Collège</span>
                         </div>
-                        <p class="text-xs text-slate-400 mb-2">Association Sportive / UNSS</p>
+                        <p class="text-xs text-slate-400 mb-2">Association Sportive / UNSS (Collège Châtillon-le-Duc)</p>
                         <p class="text-sm text-slate-600">Dynamisme, polyvalence sportive, esprit de camaraderie et implication.</p>
                     </div>
                 </div>
@@ -150,7 +172,7 @@
     </main>
 
     <footer class="bg-slate-900 text-slate-400 py-8 text-center text-sm border-t border-slate-800 mt-12">
-        <p>© 2026 - Antoine Mottet. Fait avec passion et code propre. 🚴‍♂️</p>
+        <p>© 2026 - Antoine Mottet. Tous droits réservés. 🚴‍♂️</p>
     </footer>
 
 </body>
